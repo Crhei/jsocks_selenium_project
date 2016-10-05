@@ -21,7 +21,6 @@ And(/^I select state (.*) and (.*), click checkout button and verify results on 
   rate = rates.to_f
   results =  jsocks.checkout_page.tax_calculator(subtotal_expected, rate)
 
-  binding.pry
   if tax_expected == results[:tax] && total_expected == results[:total]
     puts "Expected and Actual tax rates: #{tax_expected} and totals: #{total_expected} are matching"
   else
