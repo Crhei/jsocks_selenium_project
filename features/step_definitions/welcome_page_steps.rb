@@ -28,5 +28,4 @@ And(/^I select state (.*) and (.*), click checkout button and verify results on 
     scenario.fail('Expected and Actual rates are not matching')
   end
 
-
 end
