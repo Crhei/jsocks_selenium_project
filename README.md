@@ -9,7 +9,7 @@ bundle install
 
 Note that all gems are listed in Gemfile in root of the project. If you would like to add/update/delete gem, you would now do it in Gemfile
 
-once all gems installed, you can run WebDriver or API tests by using profiles listed in cucumber.yml file.
+once all gems installed, you can run WebDriver tests by using profiles listed in cucumber.yml file.
 
 for example:
 
