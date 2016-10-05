@@ -3,6 +3,7 @@
 Once you clone project you may now install all gems by running two commands:
 
 gem install bundler
+
 bundle install
 
 Note that all gems are listed in Gemfile in root of the project. If you would like to add/update/delete gem, you would now do it in Gemfile
