@@ -1,4 +1,4 @@
-# jsocks_selenium_project
+# Jungle Socks Selenium Project
 
 Once you clone project you may now install all gems by running two commands:
 
