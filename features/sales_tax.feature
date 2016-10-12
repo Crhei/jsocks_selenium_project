@@ -3,9 +3,9 @@ Feature: Jungle Socks
   @test
   Scenario Outline: State tax tests
     Given  I navigate to welcome page
-      And    I input following inventory count "23" items for zebra with price of "13", "12" items for lion with price of "20", "3" items for elephant with price of "35", "15" items for giraffe with price of "17"
-      Then   I select state <state> and <tax % rate>, click checkout button and verify results on checkout page
-      Examples:
+    And    I input following inventory count "23" items for zebra with price of "13", "12" items for lion with price of "20", "3" items for elephant with price of "35", "15" items for giraffe with price of "17"
+    Then   I select state <state> and <tax % rate>, click checkout button and verify results on checkout page
+    Examples:
     |state          | tax % rate  |
     |Alabama        |  0.05       |
     |Alaska         |  0.05       |

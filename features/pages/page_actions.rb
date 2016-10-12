@@ -10,10 +10,8 @@ class PageActions
   end
 
   def build_url
-    #original location for path: HomePage class
-    initial_url = self.path
-    #initial_url == "https://jungle-socks.herokuapp.com/"
-    initial_url.gsub!("jungle-socks.herokuapp.com", get_environment)
+    #original location for path: WelcomePage class
+    self.path
   end
 
 end
